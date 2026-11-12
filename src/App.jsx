@@ -1,19 +1,19 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import Product from "./pages/Product";
-import HomePage from "./pages/HomePage";
-import Pricing from "./pages/Pricing";
-import AppLayout from "./pages/AppLayout";
-import PageNotFound from "./pages/PageNotFound";
-import Login from "./pages/Login";
+import Product from "./pages/Product.jsx";
+import HomePage from "./pages/Homepage.jsx";
+import Pricing from "./pages/Pricing.jsx";
+import AppLayout from "./pages/AppLayout.jsx";
+import PageNotFound from "./pages/PageNotFound.jsx";
+import Login from "./pages/Login.jsx";
 import "./index.css";
-import CityList from "./components/CityList";
-import CountryList from "./components/CountryList";
-import City from "./components/City";
-import Form from "./components/Form";
-import { CitiesProvider } from "./contexts/CitiesContext";
-import { AuthProvider } from "./contexts/FakeAuthContext";
-import ProtectedRoute from "./pages/ProtectedRoute";
+import CityList from "./components/CityList.jsx";
+import CountryList from "./components/CountryList.jsx";
+import City from "./components/City.jsx";
+import Form from "./components/Form.jsx";
+import { CitiesProvider } from "./contexts/CitiesContext.jsx";
+import { AuthProvider } from "./contexts/FakeAuthContext.jsx";
+import ProtectedRoute from "./pages/ProtectedRoute.jsx";
 
 function App() {
   return (
