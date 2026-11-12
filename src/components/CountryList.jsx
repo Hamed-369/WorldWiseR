@@ -1,4 +1,4 @@
-import CountryItem from "./countryItem";
+import CountryItem from "./CountryItem";
 import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import Message from "./Message";
